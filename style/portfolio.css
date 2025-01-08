@@ -185,8 +185,7 @@ main section{
 }
 
 /* footer styles */
-footer{
-    margin: 130px 230px;
+footer{ 
     display: flex;
     gap: 100px;
     background-color: #FFF8F3;
@@ -194,6 +193,10 @@ footer{
 
 .footer_column{
     width: 50%;
+}
+
+.footer_column1{
+    margin-left: 143px;
 }
 
 footer input[type="text"], footer input[type="email"], footer textarea{
