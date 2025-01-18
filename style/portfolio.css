@@ -62,6 +62,22 @@ nav ul li a{
     
 }
 
+/* media query nav styles */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 20px;
+    }    
+
+    .btn_primary{
+        margin-bottom: 20px;
+    }
+}
+
+
 .btn_primary{
     background-color : #FD6E0A;
     font-weight: bold;
