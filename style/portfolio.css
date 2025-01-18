@@ -142,6 +142,17 @@ main section{
     justify-content: space-around;
 }
 
+/* media query */
+@media screen and (max-width: 576px) {
+    .about_items{
+        flex-direction: column;
+    }
+    .about{
+        padding: 20px;
+    }
+    
+}
+
 /* skills section styles */
 .skills_contianer{
     display: flex;
@@ -152,6 +163,13 @@ main section{
     padding: 30px;
     border-radius: 5px; 
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 6%) ;
+}
+
+/* media query skills section */
+@media screen and (max-width: 576px) {
+    .skills_contianer{
+       flex-direction: column;
+    }
 }
 
 /* resume section styles */
@@ -185,6 +203,14 @@ main section{
     margin: 30px 5px;
 }
 
+/* media query resume section */
+@media screen and (max-width: 576px) {
+    .resume_container{
+        flex-direction: column;
+    }
+    
+}
+
 /* footer styles */
 footer{ 
     display: flex;
@@ -210,6 +236,24 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+
+/* media query footer section */
+@media screen and (max-width: 576px){
+    footer{
+        flex-direction: column;
+    }    
+    .footer_column1{
+        margin: auto;
+        
+    }
+    .footer_column{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+    
 }
 
 
