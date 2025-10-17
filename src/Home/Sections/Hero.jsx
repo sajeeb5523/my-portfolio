@@ -11,7 +11,7 @@ const Hero = () => {
                     <div class="absolute inset-0 rounded-full bg-gradient-to-r from-[#FA5F55] to-[#FA5F55] blur-3xl opacity-30"></div>
 
                     {/* <!-- Profile photo --> */}
-                    <img src="https://i.ibb.co.com/1ffrsSWc/profile-photo.png" alt="profile" class="relative max-w-[400px] h-[400px] p-1 border-s-2 border-e-2 border-yellow-200 rounded-full" />
+                    <img src="https://i.ibb.co.com/1ffrsSWc/profile-photo.png" alt="profile" class="relative max-w-[400px] h-[400px] p-1 border-s-2 border-e-2 border-[#FA5F55] rounded-full" />
                 </div>
 
                 <div className="flex flex-col items-center md:items-start lg:w-1/2">

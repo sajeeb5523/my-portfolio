@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../Sections/Hero';
+import About from '../Sections/About';
 
 
 const Home = () => {
@@ -7,6 +8,9 @@ const Home = () => {
         <div>
             <section>
                 <Hero></Hero>
+            </section>
+            <section>
+                <About></About>
             </section>
         </div>
     );
