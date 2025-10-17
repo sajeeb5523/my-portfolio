@@ -3,6 +3,7 @@ import Hero from '../Sections/Hero';
 import About from '../Sections/About';
 import Skills from '../Sections/Skills';
 import Contact from '../Sections/Contact';
+import Projects from '../Sections/Project';
 
 const Home = () => {
     return (
@@ -15,6 +16,9 @@ const Home = () => {
             </section>
             <section>
                 <Skills></Skills>
+            </section>
+            <section>
+                <Projects></Projects>
             </section>
             <section>
                 <Contact></Contact>
