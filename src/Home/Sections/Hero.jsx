@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-
+import { ReactTyped } from 'react-typed';
 
 const Hero = () => {
     return (
@@ -19,18 +19,38 @@ const Hero = () => {
                         I'm <span className="text-[#FA5F55]">Sajeeb</span> Al Jabed
                     </h1>
 
+                    <ReactTyped
+                        className="text-xl mt-2"
+                        strings={['Web Developer', 'Frontend Developer', 'MERN stack Developer']}
+                        typeSpeed={90}
+                        backSpeed={90}
+                        loop>
+                    </ReactTyped>
+
                     <p className="my-3 pl-5 border-l-2 text-center md:text-start border-white ">
                         I’m a Frontend Developer with hands-on experience in React.js, Tailwind CSS, Node.js, Express.js, and MongoDB. I focus on building responsive, high-performance web applications while constantly learning and embracing new technologies.
                     </p>
                     <div className="flex items-center gap-5 text-3xl mt-7">
-                        <a target="_blank" href="https://www.linkedin.com/in/sajeebaljabed5523/">
-                            <FaLinkedin />
-                        </a>
                         <a target="_blank" href="https://github.com/sajeeb5523">
                             <FaGithubSquare />
                         </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/sajeebaljabed5523/">
+                            <FaLinkedin />
+                        </a>
                         <a target="_blank" href="https://www.facebook.com/sajeeb.1711">
                             <FaFacebookSquare />
+                        </a>
+                    </div>
+                    <div className="flex items-center gap-5 mt-8">
+                        <a
+                            href=""
+                            target="_blank"
+                            download
+                            className="btn bg-gray-800 border-[#FA5F55] text-white">
+                            Download Resume
+                        </a>
+                        <a href="#contact" className="btn border-[#FA5F55] bg-gray-800 text-white">
+                            Contact
                         </a>
                     </div>
                 </div>

@@ -41,19 +41,19 @@ const Contact = () => {
 
                     <div className="space-y-6">
                         <h2 className='text-2xl font-semibold'>Professional Profiles</h2>
-                        {/* linkdin */}
-                        <div className="flex items-center space-x-4">
-                            <FaLinkedin className="text-[#FA5F55] text-2xl" />
-                            <a target='_blank' href="https://www.linkedin.com/in/sajeebaljabed5523/" className="text-lg hover:underline">
-                                LinkedIn
-                            </a>
-                        </div>
-
                         {/* github */}
                         <div className="flex items-center space-x-4">
                             <FaGithubSquare className="text-[#FA5F55] text-2xl" />
                             <a target='_blank' href="https://github.com/sajeeb5523" className="text-lg hover:underline">
                                 GitHub
+                            </a>
+                        </div>
+
+                        {/* linkdin */}
+                        <div className="flex items-center space-x-4">
+                            <FaLinkedin className="text-[#FA5F55] text-2xl" />
+                            <a target='_blank' href="https://www.linkedin.com/in/sajeebaljabed5523/" className="text-lg hover:underline">
+                                LinkedIn
                             </a>
                         </div>
 

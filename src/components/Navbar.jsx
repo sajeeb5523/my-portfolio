@@ -36,8 +36,8 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link to="/" className="flex items-center gap-1.5 text-xl md:text-3xl">
-          <img className="w-10 md:w-16 " src=".png" alt="" /> Sajeeb 
+        <Link to="/" className="flex items-center gap-.5 text-xl md:text-3xl">
+          <img className="w-18 md:w-22 " src="logo.png" alt="" /> <span>Sajeeb</span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

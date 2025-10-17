@@ -22,11 +22,11 @@ const Footer = () => {
                 <h6 className="footer-title">Social</h6>
                 <div className="grid grid-flow-col gap-4">
                     <div className="flex items-center gap-5 text-3xl">
-                        <a target="_blank" href="https://www.linkedin.com/in/sajeebaljabed5523/">
-                            <FaLinkedin />
-                        </a>
                         <a target="_blank" href="https://github.com/sajeeb5523">
                             <FaGithubSquare />
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/sajeebaljabed5523/">
+                            <FaLinkedin />
                         </a>
                         <a target="_blank" href="https://www.facebook.com/sajeeb.1711">
                             <FaFacebookSquare />
