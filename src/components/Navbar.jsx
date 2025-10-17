@@ -36,9 +36,9 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link to="/" className="flex items-center gap-.5 text-xl md:text-3xl">
-          <img className="w-18 md:w-22 " src="logo.png" alt="" /> <span>Sajeeb</span>
-        </Link>
+        <button className="flex items-center gap-2.5 text-xl md:text-3xl">
+          <img className="w-14 md:w-18 " src="logo.png" alt="" /> <span>Sajeeb</span>
+        </button>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>

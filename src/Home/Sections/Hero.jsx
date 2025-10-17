@@ -15,7 +15,7 @@ const Hero = () => {
                 </div>
 
                 <div className="flex flex-col items-center md:items-start lg:w-1/2">
-                    <h1 className="text-5xl font-bold">
+                    <h1 className="text-4xl md:text-5xl mt-5 md:mt-0 font-bold">
                         I'm <span className="text-[#FA5F55]">Sajeeb</span> Al Jabed
                     </h1>
 

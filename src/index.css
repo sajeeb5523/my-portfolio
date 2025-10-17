@@ -4,3 +4,18 @@
 html {
     scroll-behavior: smooth;
 }
+
+:root {
+    /* Core */
+    --color-bg: #1a1a2e;
+}
+
+/* Base */
+body {
+    background: var(--color-bg);
+}
+
+a:hover {
+    border: 2px solid rgb(255, 0, 242);
+
+}
