@@ -43,7 +43,7 @@ const Hero = () => {
                     </div>
                     <div className="flex items-center gap-5 mt-8">
                         <a
-                            href=""
+                            href="https://drive.google.com/file/d/1iPoCXziFBk7fzBb1n2AFDkECyuNg_Upr/view?usp=drive_link"
                             target="_blank"
                             download
                             className="btn bg-gray-800 border-[#FA5F55] text-white">

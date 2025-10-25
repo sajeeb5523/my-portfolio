@@ -43,6 +43,11 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
+      <div className="navbar-end">
+        <a href="/resume.pdf" download className="btn bg-gray-800 text-white">
+          Download Resume
+        </a>
+      </div>
     </div>
   );
 };
